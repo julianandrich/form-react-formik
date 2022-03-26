@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './formulario.css';
+import Formulario from './components/formulario';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='contenedor'>
+      <Formulario />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
